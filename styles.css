@@ -137,13 +137,10 @@ body {
 .gradient-box h1 {
     font-size: 2.5rem;
     font-weight: bold;
+    color: rgb(227, 221, 221);
     text-align: center;
     margin-bottom: 20px;
     z-index: 2;
-    background: linear-gradient(to right, rgba(255, 255, 255, 1) 0%, rgba(104, 103, 103, 1) 98%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    background-clip: text;
 }
 
 .x-image-container {
@@ -155,7 +152,13 @@ body {
 }
 
 .x-image {
-    height: 500px; width: auto; margin-right: 0; z-index: -2; position: absolute; left: 50%; transform: translateX(-50%);
+    height: 500px; 
+    width: auto; 
+    margin-right: 0; 
+    z-index: -4; 
+    position: absolute; 
+    left: 5%; 
+    transform: translateX(-50%);
 }
 
 /* Media Queries for Responsive Design */
